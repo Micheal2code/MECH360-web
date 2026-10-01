@@ -11,5 +11,5 @@ jobs:
           fetch-depth: 0
       - name: Push to Repo 2
         run: |
-          git remote add second https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/Micheal2code/Mech360-web.git
+          git remote add second https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/Micheal2code/MECH360-web.git
           git push second main -f
